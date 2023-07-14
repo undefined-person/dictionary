@@ -21,6 +21,7 @@ export const Info = () => {
 
   const handleAudio = () => {
     const audio = new Audio(data.audio)
+    audio.volume = 0.2
     audio.play()
   }
 
